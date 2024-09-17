@@ -1,0 +1,34 @@
+h1 {
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 48px;
+    color: #2d4f50;
+  }
+  
+  body {
+    font-family: Verdana;
+  }
+  
+  article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  article figure img {
+    border: medium solid black;
+    border: thick double;
+  }
+  
+  article figure figcaption {
+    text-align: center;
+  }
+  
+  article p img {
+    border: medium solid black;
+    border: thick double;
+  }
+  
+  article p {
+    color: #2d4294;
+  }
