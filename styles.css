@@ -32,3 +32,15 @@ h1 {
   article p {
     color: #2d4294;
   }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    border: 1px medium solid black;
+    border: thick double;
+  }
+  
+  ul li a{
+    color: #2d4294;
+    text-decoration: none;
+  }
