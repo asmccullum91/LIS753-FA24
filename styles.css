@@ -44,3 +44,19 @@ h1 {
     color: #2d4294;
     text-decoration: none;
   }
+
+  screenreader-text {
+    position: absolute;
+    left: -999px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+  }
+  screenreader-text:focus {
+    color: black;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    position: static;
+    margin: auto;
+  }
